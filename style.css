@@ -27,6 +27,10 @@ legend {
 
 }
 
+input[type='radio']:checked + label{
+    border: 4px solid black;
+}
+
 input {
     display: none;
 }
@@ -66,7 +70,8 @@ button {
 
 }
 
-@media screen and (min-width: 768px) and (min-width: 768px) and (min-width: 1200px) {
+
+@media screen and (min-width: 768px) and (min-width: 1200px) {
     fieldset {
         display: flex;
         flex-direction: row;
