@@ -4,7 +4,7 @@
     
 }
 a {
-    margin-left: 47%;
+    margin-left: 37%;
     color:green;
 }
 
@@ -15,6 +15,10 @@ body {
 h1 {
     text-align: center;
     margin-top: 3%;
+}
+#inicio {
+    margin: 1.2rem;
+    font-size: 18px;
 }
 
 fieldset {
@@ -100,8 +104,17 @@ button {
         text-align: center;
         margin-top: 3%;
     }
-    
 
+    #inicio {
+        margin-top: 3rem;
+        font-size: 30px;
+    }
+
+    a {
+        margin-left: 47%;
+        color:green;
+    }
+    
     fieldset {
         display: flex;
         flex-direction: row;
